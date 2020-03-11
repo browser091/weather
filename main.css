@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", FranklinM, Arial, Helvetica, Verdana, sans-serif;
+    color: #fff;
+    line-height: 1.4;
+  }
+  
+  .row {
+    margin: 0 auto;
+    border: 4px solid #608094;
+    border-radius: 10px;
+    display: flex;
+    background-image: url(./img/mountains.svg),
+      linear-gradient(0deg, #fffecf, #164058 38%);
+    max-width: 500px;
+    width: 100%;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  img {
+    width: 100%; /* Ширина изображений */
+    height: 100%; /* Высота изображении */
+    object-fit: cover; /* Вписываем фотографию в область */
+  }
+  
+  .citys {
+    display: flex;
+  }
+  .find_city_btn,
+  .find_city {
+    /* width: 33.3%; */
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  .find_city_btn {
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .find_city_btn:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  .find_city {
+    margin-left: auto;
+    background-image: url();
+    width: 140px;
+  }
+  
+  .city_name {
+    width: 33.3%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .date_times {
+    margin-left: 15px;
+    display: flex;
+    font-size: 16px;
+  }
+  .date,
+  .times {
+    padding: 5px;
+  }
+  .column_icon {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .icon_elements,
+  .city_temp,
+  .data {
+    width: 33.3%;
+    align-self: center;
+    padding-left: 10px;
+    text-align: center;
+  }
+  .city_temp {
+    font-size: 32px;
+  }
+  .data {
+    font-size: 13px;
+    text-align: left;
+  }
+  .state {
+    font-size: 18px;
+    /* text-align: left;
+    width: 200px; */
+  }
+  .icon {
+    height: 100px;
+  }
+  .week {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+  .icon_week {
+    height: 65px;
+  }
+  .day {
+    width: 25%;
+    text-align: center;
+  }
+  .txt,
+  .txt1 {
+    color: black;
+  }
+  
