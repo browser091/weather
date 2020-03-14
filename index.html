@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script src="index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="citys">
+          <div class="city_name"></div>
+          <input type="text" class="find_city" placeholder="Найти другой город" />
+          <input type="button" value="&#128270" class="find_city_btn" />
+        </div>
+
+        <div class="date_times">
+          <div class="date"></div>
+          <div class="times"></div>
+        </div>
+        <div class="column_icon">
+          <div class="icon_elements">
+            <div class="icon"></div>
+            <div class="state"></div>
+          </div>
+          <div class="city_temp"></div>
+          <div class="data">
+            <div class="rain"></div>
+            <div class="wind"></div>
+            <div class="pressure"></div>
+          </div>
+        </div>
+        <div class="week">
+          <div class="day">
+            <div class="name_week n1"></div>
+            <div class="icon_week i1"></div>
+            <div class="city_temp_week t1"></div>
+          </div>
+          <div class="day">
+            <div class="name_week n2"></div>
+            <div class="icon_week i2"></div>
+            <div class="city_temp_week t2"></div>
+          </div>
+          <div class="day">
+            <div class="name_week n3"></div>
+            <div class="icon_week i3"></div>
+            <div class="city_temp_week t3"></div>
+          </div>
+          <div class="day">
+            <div class="name_week n4"></div>
+            <div class="icon_week i4"></div>
+            <div class="city_temp_week t4"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <script src="index.js"></script>
+  </body>
 </html>
