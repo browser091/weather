@@ -145,7 +145,7 @@ function startWather() {
 
   // Получаем день недели текущий
   function getWeekDay(date) {
-    let days = ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "б"];
+    let days = ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"];
     return days[date.getDay()];
   }
   // Получаем месяц
